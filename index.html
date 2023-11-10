@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educare</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsiveness.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </head>
+  <body>
+    <nav class="navblock" id="navblock">
+      <div class="leftnav" >
+        <img class="edu" src="./images/Frame 1.png" alt="" />
+      </div>
+      <div class="rightnav" id="nav">
+        <a class="home" href="#Home"><b>Home</b></a>
+        <a class="home" href="#About"><b>About</b></a>
+        <a class="home" href="#Courses"><b>Courses</b></a>
+        <a class="home" href="#Blog"><b>Blog</b></a>
+        <a class="us" href="#Contact"><b>Contact us</b></a>
+      </div>
+      <div class="hambuger" onclick="toggle()">
+        <img src="./images/navbar.svg" />
+      </div>
+      <div class="hambuger2" id="hambuger2" onclick="toggle()">
+        <img src="./images/navbar.svg" />
+      </div>
+    </nav>
+    <section class="page1" id="Home" >
+      <div class="page1left"data-aos="fade-up"data-aos-duration="1500">
+        <h1>
+          Start learning <br />
+          with us now
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+          veniam non suscipit vitae molestiae necessitatibus natus omnis culpa
+          eveniet repellat!
+        </p>
+        <a class="start" href="">Start learning</a>
+      </div>
+      <div class="page1right"data-aos="fade-up"data-aos-duration="2000">
+        <img class="page1img" src="./images/5437683 1 (1).png" alt="" />
+      </div>
+    </section>
+    <section class="page2" id="About">
+      <div class="page2left" data-aos="fade-up"data-aos-duration="1000">
+        <img src="./images/image 3.png" alt="" />
+      </div>
+      <div class="page2right"data-aos="fade-up"data-aos-duration="1500">
+        <h1>Welcome to the online centers</h1>
+        <ul>
+          <li>Start learning from your experience</li>
+          <li>Enhance your skills with us now</li>
+          <li>Do your favorite course</li>
+        </ul>
+      </div>
+    </section>
+    <section class="page3" id="Courses">
+      <div class="page3left"data-aos="fade-up"data-aos-duration="1500">
+        <h1>Start learning by creating free account and get register</h1>
+      </div>
+      <div class="page3right"data-aos="fade-up"data-aos-duration="1500">
+        <img class="pageimg" src="./images/image 1.png" alt="" />
+      </div>
+    </section>
+    <section class="minipage" id="Contact">
+      <div class="small">
+        <input type="text" placeholder="your name" name="" id="text" />
+        <input type="text" placeholder="your email address" id="text" />
+        <button class="sub" type="submit">subscribe</button>
+      </div>
+    </section>
+    <section class="page4" id="Blog">
+      <div class="page4left">
+        <h1>Start growing with <br />our community</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, rem.
+        </p>
+        <a id="join" href="">Join community</a>
+        <img class="ella1" src="./images/Ellipse 1.png" alt="" />
+        <img class="ella3" src="./images/Ellipse 3.png" alt="" />
+      </div>
+      <div class="page4right">
+        <img class="img" src="./images/lady.png" alt="girl" />
+        <img class="ella4" src="./images/Ellipse 4.png" alt="" />
+        <img class="ella2" src="./images/Ellipse 2.png" alt="" />
+      </div>
+    </section>
+    <footer data-aos="fade-up"data-aos-duration="1500">
+      <div class="footer">
+        <div><img class="edu" src="./images/Frame 1.png" alt="" /></div>
+        <div>
+          <h6>Follow us</h6>
+          <div>
+            <img
+              class="twi"
+              src="./images/4070150_tweet_twitter_twitter icon_icon.png"
+              alt=""
+            />
+            <img class="twi" src="./images/facebook.png" alt="" />
+            <img class="twi" src="./images/instagram.png" alt="" />
+          </div>
+        </div>
+        <hr />
+        <div>
+          <h6>useful Links</h6>
+          <ul>
+            <li>our Projects</li>
+            <li>FAQ's</li>
+            <li>News and Updates</li>
+          </ul>
+        </div>
+        <hr />
+        <div>
+          <h6>Contacts</h6>
+          <p>
+            Address : <br />
+            4-5 mian road, Delhi
+          </p>
+          <p>
+            Email: <br />
+            olajideayomide946@gmail.com
+          </p>
+          <p>
+            phone number: <br />
+            09163240645
+          </p>
+        </div>
+      </div>
+      <hr />
+      <article>&copy; All Copyright Reserved (MIDEY)</article>
+    </footer>
+  </body>
+  <script>
+    AOS.init();
+    function toggle() {
+      document.getElementById("nav").classList.toggle("toggle");
+      document.getElementById("hambuger2").classList.toggle("toggle");
+    }
+  </script>
+</html>
